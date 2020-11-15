@@ -1,0 +1,27 @@
+{
+  "name": "heeko_login",
+  "version": "1.0.0",
+  "description": "Heeko Assignment",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PradiptaDey/heeko_login.git"
+  },
+  "author": "Pradipta Dey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PradiptaDey/heeko_login/issues"
+  },
+  "homepage": "https://github.com/PradiptaDey/heeko_login#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "react-bootstrap": "^1.4.0"
+  }
+}
